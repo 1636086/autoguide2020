@@ -14,6 +14,13 @@ Cette page devrait contenir les tests des méthodes
 include_once("../src/Auto.php");
 include_once("../src/donnees.inc.php");
 /*LIGNE DE TEST*/
-echo Auto::titre('Ford', 'Fiesta', 'strong');
+// echo Auto::titre('Ford', 'Fiesta', 'strong');
+// echo Auto::titre('Boudreau','Martin','h1');
+// var_dump(Auto::trouverModele($voitures, 'Lada', 'California'));
+// var_dump(Auto::trouverModele($voitures, 'Ford', 'California'));
+// var_dump(Auto::trouverModele($voitures, 'Ford', 'Fiesta'));
+
+echo Auto::ariane("allo", "bye");
+
 // ... CONTINUER ...
 ?>
